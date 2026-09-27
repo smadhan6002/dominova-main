@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Block admin panel from all crawlers
+Disallow: /admin/
+
+# Block admin API routes
+Disallow: /api/admin/
+
+# Explicitly allow all public assets Googlebot needs to render the page
+Allow: /images/
+Allow: /videos/
+Allow: /assets/
+Allow: /favicon.svg
+Allow: /icons.svg
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Sitemap
+Sitemap: https://dominova.in/sitemap.xml

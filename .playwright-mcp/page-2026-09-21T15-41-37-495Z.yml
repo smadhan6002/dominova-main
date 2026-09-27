@@ -1,0 +1,343 @@
+- generic [ref=e3]:
+  - link "Skip to main content" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "DOMINOVA — Home" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "DOMINOVA" [ref=e9]
+      - generic [ref=e10]:
+        - button "Switch to dark theme" [ref=e12] [cursor=pointer]
+        - button "Open navigation menu" [ref=e16] [cursor=pointer]
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]: DOMINOVA • ENTERPRISE TECH & INTERNSHIPS
+      - heading "BUILD SKILLS. BUILD SOFTWARE. BUILD YOUR FUTURE." [level=1] [ref=e26]
+      - paragraph [ref=e27]: Dominova delivers custom enterprise web & mobile software solutions for businesses while empowering students with real-world engineering projects and mentorship in Chennai.
+      - generic [ref=e28]:
+        - button "Explore Services" [ref=e29] [cursor=pointer]
+        - button "Apply for Internship" [ref=e33] [cursor=pointer]
+      - generic [ref=e35]:
+        - generic [ref=e36]: Chennai Headquarters
+        - generic [ref=e39]: 100% Real Production Code
+        - generic [ref=e42]: Live Mentor Guidance
+      - generic [ref=e45]: SCROLL TO EXPLORE
+    - generic [ref=e50]:
+      - generic [ref=e51]: LEVEL 0 • INTERACTIVE EXPLORATION HUB
+      - generic [ref=e52]:
+        - heading "Explore The Dominova Technology Matrix" [level=2] [ref=e53]
+        - paragraph [ref=e54]: Select any domain portal below to enter deeper architectural layers, explore technical specifications, and interact with real engineering modules.
+      - generic [ref=e55]:
+        - button "Enter Enterprise Services Layer" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: SYS-01
+            - generic [ref=e59]: Production Services
+          - heading "Enterprise Services" [level=3] [ref=e60]
+          - paragraph [ref=e61]: Custom Software, Web, Mobile, Cloud & AI Solutions
+          - paragraph [ref=e62]: Scalable engineering platforms, microservices, cloud deployments, and AI-driven workflow automations engineered for high-concurrency enterprise workloads.
+          - generic [ref=e63]:
+            - generic [ref=e64]: 11 Technical Domains
+            - generic [ref=e65]: Enter Layer
+        - button "Enter Internship Academy Layer" [ref=e69] [cursor=pointer]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: SYS-02
+            - generic [ref=e72]: Industry Mentorship
+          - heading "Internship Academy" [level=3] [ref=e73]
+          - paragraph [ref=e74]: 100% Real Production Code Mentorship in Chennai
+          - paragraph [ref=e75]: Direct hands-on engineering tracks across full-stack web, mobile apps, Java, Python, data analytics, data science, cybersecurity, and cloud computing.
+          - generic [ref=e76]:
+            - generic [ref=e77]: 8 Engineering Tracks
+            - generic [ref=e78]: Enter Layer
+        - button "Enter Spatial Portfolio Layer" [ref=e82] [cursor=pointer]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: SYS-03
+            - generic [ref=e85]: Case Studies
+          - heading "Spatial Portfolio" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Architectural Blueprints & Deployed Systems
+          - paragraph [ref=e88]: Explore real-world case studies spanning fintech payment gateways, AI diagnostics, enterprise resource planning, and logistics.
+          - generic [ref=e89]:
+            - generic [ref=e90]: 6 Featured Blueprints
+            - generic [ref=e91]: Enter Layer
+        - button "Enter Engineering Core Layer" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]:
+            - generic [ref=e97]: SYS-04
+            - generic [ref=e98]: Company Vision
+          - heading "Engineering Core" [level=3] [ref=e99]
+          - paragraph [ref=e100]: Mission, 4 Pillars & Chennai Headquarters
+          - paragraph [ref=e101]: "Founded on dual excellence: delivering battle-tested technology solutions to enterprises while building India’s top software engineers."
+          - generic [ref=e102]:
+            - generic [ref=e103]: Chennai, India
+            - generic [ref=e104]: Enter Layer
+        - button "Enter Tech Architecture Layer" [ref=e108] [cursor=pointer]:
+          - generic [ref=e109]:
+            - generic [ref=e110]: SYS-05
+            - generic [ref=e111]: Ecosystem
+          - heading "Tech Architecture" [level=3] [ref=e112]
+          - paragraph [ref=e113]: Full-Stack Ecosystem & Infrastructure Stack
+          - paragraph [ref=e114]: Deep dive into React, Next.js, Flutter, Python, FastAPI, Docker, Kubernetes, AWS Cloud, and PostgreSQL database schemas.
+          - generic [ref=e115]:
+            - generic [ref=e116]: Modern Stack 2026
+            - generic [ref=e117]: Enter Layer
+        - button "Enter Inquiry Portal Layer" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: SYS-06
+            - generic [ref=e124]: Get In Touch
+          - heading "Inquiry Portal" [level=3] [ref=e125]
+          - paragraph [ref=e126]: Direct Enterprise & Student Communication
+          - paragraph [ref=e127]: Connect directly with Dominova leadership for custom software proposals, consulting engagements, or program admissions.
+          - generic [ref=e128]:
+            - generic [ref=e129]: Response < 24 Hours
+            - generic [ref=e130]: Enter Layer
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e138]: 0+
+        - paragraph [ref=e139]: Projects Shipped
+      - generic [ref=e140]:
+        - generic [ref=e141]: 0+
+        - paragraph [ref=e142]: Engineers Mentored
+      - generic [ref=e143]:
+        - generic [ref=e144]: 0%
+        - paragraph [ref=e145]: Impact Rate
+      - generic [ref=e146]:
+        - generic [ref=e147]: 0+
+        - paragraph [ref=e148]: Tech Domains
+    - generic [ref=e150]:
+      - generic [ref=e151]: WHY DOMINOVA
+      - heading "Built for Excellence, Driven by Real Results" [level=2] [ref=e152]
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - generic [ref=e155]: ⚡
+          - heading "Industry Mentorship" [level=3] [ref=e156]
+          - paragraph [ref=e157]: Learn directly from experienced software engineers working on real client codebases.
+        - generic [ref=e158]:
+          - generic [ref=e159]: 🛡️
+          - heading "Production-Grade Quality" [level=3] [ref=e160]
+          - paragraph [ref=e161]: Every application and internship assignment adheres to enterprise coding standards.
+        - generic [ref=e162]:
+          - generic [ref=e163]: 🚀
+          - heading "Fast & Reliable Delivery" [level=3] [ref=e164]
+          - paragraph [ref=e165]: Agile development workflows that keep business projects on schedule and within scope.
+        - generic [ref=e166]:
+          - generic [ref=e167]: 📐
+          - heading "Secure & Scalable" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Cloud-first architecture built with zero-trust security and auto-scaling mechanisms.
+        - generic [ref=e170]:
+          - generic [ref=e171]: 💻
+          - heading "100% Hands-on Projects" [level=3] [ref=e172]
+          - paragraph [ref=e173]: No theoretical dummy work—students and engineers build production-ready applications.
+        - generic [ref=e174]:
+          - generic [ref=e175]: 🎓
+          - heading "Career Advancement" [level=3] [ref=e176]
+          - paragraph [ref=e177]: Verified completion certificates, portfolio reviews, and targeted interview preparation.
+    - generic [ref=e179]:
+      - generic [ref=e180]: FREQUENTLY ASKED QUESTIONS
+      - heading "Everything You Need To Know" [level=2] [ref=e181]
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - button "Eligibility & Background Who is eligible to apply for Dominova internship programs? −" [expanded] [ref=e184] [cursor=pointer]:
+            - generic [ref=e185]:
+              - generic [ref=e186]: Eligibility & Background
+              - heading "Who is eligible to apply for Dominova internship programs?" [level=3] [ref=e187]
+            - generic [ref=e188]: −
+          - paragraph [ref=e190]: Our programs are open to engineering students, arts & science undergraduates, fresh graduates, and career switchers looking to build real-world software engineering capabilities. Tracks are structured for beginner to intermediate levels.
+        - button "Location & Mode Is the internship conducted online, offline, or hybrid? +" [ref=e192] [cursor=pointer]:
+          - generic [ref=e193]:
+            - generic [ref=e194]: Location & Mode
+            - heading "Is the internship conducted online, offline, or hybrid?" [level=3] [ref=e195]
+          - generic [ref=e196]: +
+        - button "Duration & Sprints How long are the programs and what is the weekly commitment? +" [ref=e198] [cursor=pointer]:
+          - generic [ref=e199]:
+            - generic [ref=e200]: Duration & Sprints
+            - heading "How long are the programs and what is the weekly commitment?" [level=3] [ref=e201]
+          - generic [ref=e202]: +
+        - button "Certification & Credential Will I receive a verified certificate and recommendation letter? +" [ref=e204] [cursor=pointer]:
+          - generic [ref=e205]:
+            - generic [ref=e206]: Certification & Credential
+            - heading "Will I receive a verified certificate and recommendation letter?" [level=3] [ref=e207]
+          - generic [ref=e208]: +
+        - button "Curriculum & Stack What technologies and frameworks will I be working with? +" [ref=e210] [cursor=pointer]:
+          - generic [ref=e211]:
+            - generic [ref=e212]: Curriculum & Stack
+            - heading "What technologies and frameworks will I be working with?" [level=3] [ref=e213]
+          - generic [ref=e214]: +
+        - button "Enterprise Services Does Dominova provide custom software development for businesses? +" [ref=e216] [cursor=pointer]:
+          - generic [ref=e217]:
+            - generic [ref=e218]: Enterprise Services
+            - heading "Does Dominova provide custom software development for businesses?" [level=3] [ref=e219]
+          - generic [ref=e220]: +
+        - button "Application Process How do I apply and when does onboarding start? +" [ref=e222] [cursor=pointer]:
+          - generic [ref=e223]:
+            - generic [ref=e224]: Application Process
+            - heading "How do I apply and when does onboarding start?" [level=3] [ref=e225]
+          - generic [ref=e226]: +
+    - generic [ref=e228]:
+      - generic [ref=e229]: COLLABORATION & GROWTH
+      - heading "HAVE A DIGITAL IDEA? LET'S BUILD IT." [level=2] [ref=e230]
+      - generic [ref=e231]:
+        - button "Start a Project" [ref=e232] [cursor=pointer]
+        - button "Apply for Internship" [ref=e236] [cursor=pointer]
+    - generic [ref=e239]:
+      - generic [ref=e240]: GET IN TOUCH
+      - generic [ref=e241]:
+        - generic [ref=e242]:
+          - heading "Let's Discuss Your Next Technology Breakthrough" [level=2] [ref=e243]
+          - paragraph [ref=e244]: Whether you are an enterprise seeking custom software solutions or a student looking to start an industry internship in Chennai, our leadership team is ready to connect.
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]: 📱
+              - generic [ref=e248]:
+                - text: Direct Phone / Call
+                - paragraph [ref=e249]:
+                  - link "+91 87543 25192" [ref=e250] [cursor=pointer]:
+                    - /url: tel:+918754325192
+            - generic [ref=e251]:
+              - generic [ref=e252]: 💬
+              - generic [ref=e253]:
+                - text: WhatsApp Official Support
+                - paragraph [ref=e254]:
+                  - link "+91 87543 25192 (Click to Chat)" [ref=e255] [cursor=pointer]:
+                    - /url: https://wa.me/918754325192?text=Hi%20Dominova%20Team%2C%0AI%20would%20like%20to%20enquire%20about%20Dominova%20technology%20services%20and%20internship%20programs.%0AThank%20you.
+            - generic [ref=e256]:
+              - generic [ref=e257]: 📧
+              - generic [ref=e258]:
+                - text: Official Email
+                - paragraph [ref=e259]:
+                  - link "dominova.office@gmail.com" [ref=e260] [cursor=pointer]:
+                    - /url: mailto:dominova.office@gmail.com
+            - generic [ref=e261]:
+              - generic [ref=e262]: 🏢
+              - generic [ref=e263]:
+                - text: Corporate Operations
+                - paragraph [ref=e264]: Dominova Technology Solutions
+            - generic [ref=e265]:
+              - generic [ref=e266]: 📍
+              - generic [ref=e267]:
+                - text: Headquarters Location
+                - paragraph [ref=e268]: Chennai, Tamil Nadu, India
+          - generic [ref=e269]:
+            - generic [ref=e270]: "Connect with Dominova:"
+            - link "Instagram (@dominova_chennai_)" [ref=e272] [cursor=pointer]:
+              - /url: https://instagram.com/dominova_chennai_
+        - generic [ref=e274]:
+          - heading "Send a Direct Message" [level=3] [ref=e275]
+          - generic [ref=e276]:
+            - button "Business Project" [ref=e277] [cursor=pointer]
+            - button "Internship Program" [ref=e278] [cursor=pointer]
+          - generic [ref=e279]:
+            - generic [ref=e280]:
+              - generic [ref=e281]: Full Name *
+              - textbox "Full Name *" [ref=e282]:
+                - /placeholder: e.g. Rahul Sharma
+            - generic [ref=e283]:
+              - generic [ref=e284]: Email Address *
+              - textbox "Email Address *" [ref=e285]:
+                - /placeholder: e.g. name@company.com
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - generic [ref=e288]: Phone Number *
+              - textbox "Phone Number *" [ref=e289]:
+                - /placeholder: +91 87543 25192
+            - generic [ref=e290]:
+              - generic [ref=e291]: Company / College Name
+              - textbox "Company / College Name" [ref=e292]:
+                - /placeholder: e.g. TechCorp / SRM Institute
+          - generic [ref=e293]:
+            - generic [ref=e294]: Service or Internship Domain *
+            - combobox "Service or Internship Domain *" [ref=e295]:
+              - option "Web Development" [selected]
+              - option "Mobile App Development"
+              - option "Custom Software Solutions"
+              - option "UI/UX Design"
+              - option "Data Analytics & Data Science"
+              - option "Cloud & Deployment (DevOps)"
+              - option "Cybersecurity"
+              - option "Technology Consulting"
+          - generic [ref=e296]:
+            - generic [ref=e297]: Project Requirements / Query Details *
+            - textbox "Project Requirements / Query Details *" [ref=e298]:
+              - /placeholder: Describe your software project scope, timeline, or internship interest...
+          - generic [ref=e299]:
+            - button "Submit & Send on WhatsApp" [ref=e300] [cursor=pointer]
+            - button "Chat on WhatsApp Directly 💬" [ref=e302] [cursor=pointer]
+  - contentinfo [ref=e304]:
+    - generic [ref=e305]:
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - img "DOMINOVA" [ref=e309]
+          - paragraph [ref=e310]: Building scalable technology solutions for businesses and institutions across India.
+          - generic [ref=e311]:
+            - paragraph [ref=e312]:
+              - generic [ref=e313]: "📱 Call / WhatsApp:"
+              - link "+91 87543 25192" [ref=e314] [cursor=pointer]:
+                - /url: tel:+918754325192
+            - paragraph [ref=e315]:
+              - generic [ref=e316]: "📧 Email:"
+              - link "dominova.office@gmail.com" [ref=e317] [cursor=pointer]:
+                - /url: mailto:dominova.office@gmail.com
+          - paragraph [ref=e318]:
+            - text: "Headquarters:"
+            - strong [ref=e319]: Chennai, Tamil Nadu, India
+        - generic [ref=e320]:
+          - heading "Services" [level=4] [ref=e321]
+          - list [ref=e322]:
+            - listitem [ref=e323]:
+              - link "Web Development" [ref=e324] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e325]:
+              - link "Mobile Apps" [ref=e326] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e327]:
+              - link "Custom Software" [ref=e328] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e329]:
+              - link "UI/UX Design" [ref=e330] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e331]:
+              - link "Data Analytics" [ref=e332] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e333]:
+              - link "Cloud Services" [ref=e334] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e335]:
+              - link "Cybersecurity" [ref=e336] [cursor=pointer]:
+                - /url: "#services"
+        - generic [ref=e337]:
+          - heading "Company" [level=4] [ref=e338]
+          - list [ref=e339]:
+            - listitem [ref=e340]:
+              - link "About Us" [ref=e341] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=e342]:
+              - link "Internships" [ref=e343] [cursor=pointer]:
+                - /url: "#internship"
+            - listitem [ref=e344]:
+              - link "Blog" [ref=e345] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e346]:
+              - link "Contact" [ref=e347] [cursor=pointer]:
+                - /url: "#contact"
+            - listitem [ref=e348]:
+              - link "Portfolio Showcase ↗" [ref=e349] [cursor=pointer]:
+                - /url: https://dominova-portfolio-showcase.vercel.app/
+        - generic [ref=e350]:
+          - heading "Connect" [level=4] [ref=e351]
+          - list [ref=e352]:
+            - listitem [ref=e353]:
+              - link "WhatsApp Chat 💬" [ref=e354] [cursor=pointer]:
+                - /url: https://wa.me/918754325192?text=Hi%20Dominova%20Team%2C%0AI%20would%20like%20to%20enquire%20about%20Dominova%20technology%20services%20and%20internship%20programs.%0AThank%20you.
+            - listitem [ref=e355]:
+              - link "dominova.office@gmail.com" [ref=e356] [cursor=pointer]:
+                - /url: mailto:dominova.office@gmail.com
+            - listitem [ref=e357]:
+              - link "+91 87543 25192" [ref=e358] [cursor=pointer]:
+                - /url: tel:+918754325192
+            - listitem [ref=e359]:
+              - link "Instagram (@dominova_chennai_)" [ref=e360] [cursor=pointer]:
+                - /url: https://instagram.com/dominova_chennai_
+            - listitem [ref=e361]:
+              - link "Apply for Internship ↗" [ref=e362] [cursor=pointer]:
+                - /url: https://forms.gle/zhufuHYQkRFnJWEv7
+            - listitem [ref=e363]:
+              - link "Free Consultation" [ref=e364] [cursor=pointer]:
+                - /url: "#contact"
+      - paragraph [ref=e366]: © 2026 Dominova. All rights reserved. Building the future of technology in Chennai.

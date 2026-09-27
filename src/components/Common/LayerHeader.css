@@ -1,0 +1,104 @@
+/* ============================================
+   DOMINOVA — Layer Navigation Header Bar
+   ============================================ */
+
+.layer-header-bar {
+  position: sticky;
+  top: 80px;
+  z-index: 900;
+  background: var(--header-bg-scrolled);
+  border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 12px 0;
+  transition: top var(--transition-med);
+}
+
+.layer-header-bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.layer-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.layer-breadcrumb__item {
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: default;
+}
+
+.layer-breadcrumb__home {
+  color: var(--gold);
+  cursor: pointer;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.layer-breadcrumb__home:hover {
+  color: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+.layer-breadcrumb__separator {
+  color: var(--color-border);
+  font-size: 12px;
+}
+
+.layer-breadcrumb__item.is-active {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.layer-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast), color var(--transition-fast);
+}
+
+.layer-back-btn:hover {
+  background: var(--gold-subtle);
+  border-color: var(--gold);
+  color: var(--gold-light);
+  transform: translateX(-2px);
+}
+
+@media (max-width: 640px) {
+  .layer-header-bar {
+    top: 70px;
+    padding: 10px 0;
+  }
+  .layer-breadcrumb {
+    font-size: 11px;
+    gap: 6px;
+  }
+  .layer-back-btn {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+}

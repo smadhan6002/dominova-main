@@ -1,0 +1,436 @@
+/* ============================================
+   DOMINOVA — Global Design System
+   Technology. Designed to Move Business Forward.
+   ============================================ */
+
+/* --- Design Tokens --- */
+:root {
+  /* Colors */
+  --color-black: #000000;
+  --color-bg: #050505;
+  --color-bg-2: #0a0a0a;
+  --color-bg-3: #111111;
+  --color-surface: #141414;
+  --color-surface-2: #181818;
+  --color-surface-hover: #1e1e1e;
+  --color-surface-glass: rgba(20, 20, 20, 0.75);
+  --color-border: rgba(212, 175, 55, 0.15);
+  --color-border-light: rgba(255, 255, 255, 0.07);
+
+  /* Gold Palette */
+  --gold-dark: #C9A227;
+  --gold: #D4AF37;
+  --gold-light: #E6C766;
+  --gold-subtle: rgba(212, 175, 55, 0.08);
+  --gold-glow: rgba(212, 175, 55, 0.2);
+
+  /* Text */
+  --text-primary: #FFFFFF;
+  --text-secondary: #F0EDE8;
+  --text-muted: #888888;
+  --text-faint: #444444;
+
+  /* Interactive & Surfaces */
+  --btn-gold-hover-text: #000000;
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.6);
+  --shadow-card-hover: 0 20px 40px rgba(0, 0, 0, 0.8);
+  --shadow-header: 0 10px 30px rgba(0, 0, 0, 0.7);
+  --header-bg-scrolled: rgba(5, 5, 5, 0.88);
+  --header-border-scrolled: rgba(212, 175, 55, 0.14);
+  --overlay-gradient-1: linear-gradient(180deg, rgba(5, 5, 5, 0.2) 0%, rgba(5, 5, 5, 0.9) 100%);
+  --overlay-gradient-2: linear-gradient(90deg, rgba(5, 5, 5, 0.85) 0%, transparent 60%);
+  --gold-title-gradient: linear-gradient(135deg, #FFF099 0%, #E6C766 35%, #D4AF37 70%, #996515 100%);
+  --logo-wordmark-gradient: linear-gradient(135deg, #FFF099 0%, #D4AF37 40%, #AA7A1E 80%, #F3E5AB 100%);
+  --input-bg: #141414;
+  --input-border: rgba(255, 255, 255, 0.1);
+  --input-text: #FFFFFF;
+  --modal-backdrop: rgba(0, 0, 0, 0.85);
+
+  /* Aliases for Blog / Shared components */
+  --bg-surface: var(--color-surface);
+  --border-color: var(--color-border);
+  --text-main: var(--text-primary);
+  --font-primary: var(--font-display);
+  --font-secondary: var(--font-body);
+
+  /* Typography */
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --section-pad: clamp(70px, 8vw, 120px);
+  --container-max: 1240px;
+  --container-pad: clamp(16px, 3.5vw, 40px);
+
+  /* Transitions */
+  --transition-fast: 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-med: 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-slow: 700ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-cinematic: 1200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* --- Light Theme Design Tokens --- */
+[data-theme="light"] {
+  /* Colors */
+  --color-black: #000000;
+  --color-bg: #F7F8FA;
+  --color-bg-2: #FFFFFF;
+  --color-bg-3: #F1F3F5;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F8F9FA;
+  --color-surface-hover: #F3F4F6;
+  --color-surface-glass: rgba(255, 255, 255, 0.85);
+  --color-border: rgba(184, 134, 11, 0.22);
+  --color-border-light: rgba(0, 0, 0, 0.08);
+
+  /* Gold Palette */
+  --gold-dark: #8F6514;
+  --gold: #B8860B;
+  --gold-light: #7A5506;
+  --gold-subtle: rgba(184, 134, 11, 0.08);
+  --gold-glow: rgba(184, 134, 11, 0.15);
+
+  /* Text */
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --text-muted: #6B7280;
+  --text-faint: #9CA3AF;
+
+  /* Interactive & Surfaces */
+  --btn-gold-hover-text: #FFFFFF;
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
+  --shadow-card-hover: 0 12px 32px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.03);
+  --shadow-header: 0 4px 24px rgba(0, 0, 0, 0.05);
+  --header-bg-scrolled: rgba(247, 248, 250, 0.88);
+  --header-border-scrolled: rgba(0, 0, 0, 0.08);
+  --overlay-gradient-1: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.75) 100%);
+  --overlay-gradient-2: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, transparent 60%);
+  --gold-title-gradient: linear-gradient(135deg, #996515 0%, #C9A227 40%, #8A5A00 80%, #6E4600 100%);
+  --logo-wordmark-gradient: linear-gradient(135deg, #8A5A00 0%, #B8860B 35%, #996515 70%, #6E4600 100%);
+  --input-bg: #FFFFFF;
+  --input-border: #E5E7EB;
+  --input-text: #111827;
+  --modal-backdrop: rgba(15, 23, 42, 0.45);
+
+  /* Aliases for Blog / Shared components */
+  --bg-surface: var(--color-surface);
+  --border-color: var(--color-border-light);
+  --text-main: var(--text-primary);
+}
+
+/* --- Reset --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom cursor overlay is disabled — native cursor is always shown */
+/* body.has-custom-cursor rules intentionally removed to keep system cursor visible */
+
+img, video {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* --- Typography Scale --- */
+.display-xl {
+  font-family: var(--font-display);
+  font-size: clamp(56px, 9vw, 140px);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.display-lg {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 96px);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.display-md {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4vw, 64px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
+.display-sm {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2.5vw, 40px);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.heading-lg {
+  font-family: var(--font-display);
+  font-size: clamp(18px, 2vw, 28px);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.heading-sm {
+  font-family: var(--font-display);
+  font-size: clamp(14px, 1.5vw, 18px);
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.body-lg {
+  font-family: var(--font-body);
+  font-size: clamp(16px, 1.5vw, 20px);
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.body-md {
+  font-family: var(--font-body);
+  font-size: clamp(14px, 1.2vw, 16px);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* --- Container --- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding-left: var(--container-pad);
+  padding-right: var(--container-pad);
+}
+
+/* --- Gold Accent --- */
+.gold { color: var(--gold); }
+.gold-dark { color: var(--gold-dark); }
+.text-muted { color: var(--text-muted); }
+
+/* --- Section Utilities --- */
+.section {
+  padding: var(--section-pad) 0;
+  position: relative;
+}
+
+.section-label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-label::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background: var(--gold);
+  flex-shrink: 0;
+}
+
+/* --- Premium Button --- */
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+  transition: color var(--transition-med), background var(--transition-med);
+  cursor: pointer;
+}
+
+.btn-gold::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--gold);
+  transform: translateX(-101%);
+  transition: transform var(--transition-med);
+  z-index: 0;
+}
+
+.btn-gold:hover::before {
+  transform: translateX(0);
+}
+
+.btn-gold:hover {
+  color: var(--btn-gold-hover-text);
+}
+
+.btn-gold span, .btn-gold svg {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-white {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  border: 1px solid var(--color-border-light);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+  transition: color var(--transition-med), background var(--transition-med), border-color var(--transition-med);
+  cursor: pointer;
+}
+
+.btn-white::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(128, 128, 128, 0.08);
+  transform: translateX(-101%);
+  transition: transform var(--transition-med);
+  z-index: 0;
+}
+
+.btn-white:hover::before {
+  transform: translateX(0);
+}
+
+.btn-white span, .btn-white svg {
+  position: relative;
+  z-index: 1;
+}
+
+/* --- Dominova Wordmark Class --- */
+.dominova-wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  background: var(--logo-wordmark-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  white-space: nowrap;
+  line-height: 1;
+  transition: background var(--transition-med);
+}
+
+/* --- Thin Gold Line --- */
+.gold-line {
+  width: 40px;
+  height: 1px;
+  background: var(--gold);
+  display: block;
+}
+
+/* --- Horizontal Rule --- */
+.divider {
+  width: 100%;
+  height: 1px;
+  background: var(--color-border-light);
+}
+
+/* --- Reveal Animations (fallback non-GSAP) --- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* --- Custom Scrollbar --- */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold-dark);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}
+
+/* --- Focus Styles --- */
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+/* --- Selection --- */
+::selection {
+  background: var(--gold-dark);
+  color: var(--color-black);
+}
+
+/* --- App Wrapper --- */
+#root {
+  overflow-x: hidden;
+}
